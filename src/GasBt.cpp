@@ -18,7 +18,7 @@ GasBt::GasBt(int pin, int activeLow)
 
   _debounceTicks = 50;      // number of millisec that have to pass by before a click is assumed as safe.
   _clickTicks = 600;        // number of millisec that have to pass by before a click is detected.
-  _pressTicks = 1000;       // number of millisec that have to pass by before a long button press is detected.
+  _pressTicks = 2000;       // number of millisec that have to pass by before a long button press is detected.
  
   _state = 0; // starting with state 0: waiting for button to be pressed
   _isLongPressed = false;  // Keep track of long press state
