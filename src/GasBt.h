@@ -13,8 +13,8 @@
 // 14.05.2017 Debouncing improvements.
 // -----
 
-#ifndef OneButton_h
-#define OneButton_h
+#ifndef GasBt_h
+#define GasBt_h
 
 #include "Arduino.h"
 
