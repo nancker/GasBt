@@ -1,5 +1,5 @@
 // -----
-// OneButton.h - Library for detecting button clicks, doubleclicks and long press pattern on a single button.
+// GasBt.h - Library for detecting button clicks, doubleclicks and long press pattern on a single button.
 // This class is implemented for use with the Arduino environment.
 // Copyright (c) by Matthias Hertel, http://www.mathertel.de
 // This work is licensed under a BSD style license. See http://www.mathertel.de/License.aspx
@@ -25,11 +25,11 @@ extern "C" {
 }
 
 
-class OneButton
+class GasBt
 {
 public:
   // ----- Constructor -----
-  OneButton(int pin, int active);
+  GasBt(int pin, int active);
   
   // ----- Set runtime parameters -----
 
